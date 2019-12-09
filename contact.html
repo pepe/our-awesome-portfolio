@@ -22,35 +22,49 @@
   <![endif]-->
   <div class="jumbotron  jumbotron-fluid">
     <div class="container">
-      <h1 class="display-4">Welcome page</h1>
+      <h1 class="display-4">Contact page</h1>
       <img src="heroImage.jpg" alt="Hero image">
     </div>
-
   </div>
+
   <div class="container">
-    <p>
-      Our Coolest Group is made up of team which includes:web designer, web
-      developer and project manager all have technical expertise in the field,
-      creativity and vision to create innovative, smart websites and applications.
-    </p>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputName1">Name</label>
+        <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="nameHelp" class="form-text text-muted">We'll never share your email with the devil.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlMessage1">Message</label>
+        <textarea class="form-control" id="exampleFormControlMessage1" rows="3"></textarea>
+      </div>
+      <div class="form-group">
+        <button id="sb" type="button" name="button" class="btn btn-primary">Submit your message</button>
+      </div>
+    </form>
 
-    <div class="collabs">
-      <p>Please look at the page of collaborators.</p>
-
-      <a class="btn btn-primary btn-lg" href="elene.html"> Elene - project manager</a>
-
-      <a class="btn btn-primary btn-lg" href="simran.html">Simran - desiger</a>
-
-      <a class="btn btn-secondary " href="pepe.html">Pepe - worker</a>
+    <div id="message">
+      <h1>Your message was sent.</h1>
     </div>
   </div>
 
   <footer>
     All rghts reserved 2019 &nbsp;/&nbsp;
   <a href="contact.html">Contact</a>
-</footer>
+  </footer>
 
+<script type="text/javascript">
+  var sb = document.getElementById("sb");
+  var fo = document.querySelector("form");
+  var me = document.getElementById("message");
 
+  sb.onclick = function(e) { fo.style.display = "none"; me.style.display = "block" }
+</script>
 
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
