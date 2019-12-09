@@ -1,3 +1,29 @@
 .jumbotron img {
   width: 100%;
 }
+
+form .form-group:last-child {
+  padding-bottom: 3rem;
+}
+
+#message {
+  display: none;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-bottom: 1rem;
+  background-color: var(--primary);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+footer a {
+  color: white;
+  text-decoration: underline;
+}
