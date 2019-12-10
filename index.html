@@ -20,31 +20,98 @@
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Awesome group</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#welcome">Welcome</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#elene">Elene</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#simran">Simran</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#pepe">Pepe</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
   <div class="jumbotron  jumbotron-fluid">
     <div class="container">
-      <h1 class="display-4">Welcome page</h1>
+      <h1 class="display-4">We are the best and we know it</h1>
       <img src="heroImage.jpg" alt="Hero image">
     </div>
 
   </div>
   <div class="container">
-    <p>
-      Our Coolest Group is made up of team which includes:web designer, web
-      developer and project manager all have technical expertise in the field,
-      creativity and vision to create innovative, smart websites and applications.
-    </p>
+    <div id="welcome">
+      <h1>Welcome</h1>
+      <p>
+        Our Coolest Group is made up of team which includes:web designer, web
+        developer and project manager all have technical expertise in the field,
+        creativity and vision to create innovative, smart websites and applications.
+      </p>
+    </div>
 
     <div class="collabs">
-      <p>Please look at the page of collaborators.</p>
+      <div id="elene">
+        <h1>Elene</h1>
+        <img src="EleneVadach.jpg" alt="Hero image">
+        <p>
+        Elene guides you through the whole development process and beyond. Success is based on planning and foresight. You need to make sure your company is pointed in the right direction before getting started. Whatever your business needs, we got it covered. Research, Information architecture and a powerful messaging. Bring your project to us and we will take care of it, start to finish.
+        </p>
+      </div>
+      <div id="simran">
+        <h1>Simran</h1>
+        <img src="orangeImage.jpg" alt="">
+        <p>
+          Sirman is a brilliant and accomplished UI/UX designer. To bring your website to life, our professional web design services begin with top-notch wireframes and full-fidelity mockups. With custom designs and layouts, you will have professional display on any screen and will be able to target wider audience.
+        </p>
+      </div>
+      <div id="pepe">
+        <h1>Pepe</h1>
+        <img src="3204.jpg" alt="Hero image">
+        <p>
+        Pepe is a God of development and great experience at it. Expert and frustration-free website management. From responsive templates to personalized features, we help you create a seamless customer experience that ensures your business reaches the right people. We can set you up on our hosting platform, so your website runs quickly and efficiently.
+        </p>
+      </div>
+    </div>
+    <div id="contact">
+      <h1>Contact us</h1>
+      <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputName1">Name</label>
+          <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <small id="nameHelp" class="form-text text-muted">We'll never share your email with the devil.</small>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlMessage1">Message</label>
+          <textarea class="form-control" id="exampleFormControlMessage1" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+          <button id="sb" type="button" name="button" class="btn btn-primary">Submit your message</button>
+        </div>
+      </form>
 
-      <a class="btn btn-primary btn-lg" href="elene.html"> Elene - project manager</a>
-
-      <a class="btn btn-primary btn-lg" href="simran.html">Simran - desiger</a>
-
-      <a class="btn btn-secondary " href="pepe.html">Pepe - worker</a>
+      <div id="message">
+        <h1>Your message was sent.</h1>
+      </div>
     </div>
   </div>
-
   <footer>
     All rghts reserved 2019 &nbsp;/&nbsp;
   <a href="contact.html">Contact</a>

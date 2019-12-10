@@ -2,12 +2,35 @@
   width: 100%;
 }
 
+.collabs > div {
+  border-top: solid thin var(--primary);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.collabs > div h1 {
+  width: 100%;
+}
+
+.collabs > div img {
+  width: 25%;
+  margin: 2.5%;
+}
+
+.collabs > div p {
+  width: 70%;
+  margin: 2.5% 0;
+}
 form .form-group:last-child {
   padding-bottom: 3rem;
 }
 
 #message {
   display: none;
+}
+
+#contact {
+  border-top: solid thin var(--primary);
 }
 
 footer {
